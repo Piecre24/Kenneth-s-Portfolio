@@ -1,0 +1,24 @@
+{
+  "name": "kenneth-s-cv",
+  "version": "1.0.0",
+  "description": "Web design of my CV",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Piecre24/Kenneth-s-CV.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Piecre24/Kenneth-s-CV/issues"
+  },
+  "homepage": "https://github.com/Piecre24/Kenneth-s-CV#readme",
+  "dependencies": {
+    "node": "^15.4.0",
+    "react": "^17.0.1",
+    "redux": "^4.0.5"
+  }
+}
