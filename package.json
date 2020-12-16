@@ -4,7 +4,9 @@
   "description": "Web design of my CV",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watchAll",
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -17,9 +19,15 @@
   },
   "homepage": "https://github.com/Piecre24/Kenneth-s-CV#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "node": "^15.4.0",
+    "nodemon": "^2.0.6",
+    "path": "^0.12.7",
     "react": "^17.0.1",
     "redux": "^4.0.5"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
 }
