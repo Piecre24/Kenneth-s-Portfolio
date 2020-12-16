@@ -4,9 +4,14 @@
   "description": "Web design of my CV",
   "main": "index.js",
   "scripts": {
+    "dev": "run-p dev:client dev:server",
+    "dev:client": "webpack --watch",
+    "dev:server": "nodemon server",
+    "start": "run-s build server",
+    "build": "webpack",
+    "server": "node server",
     "test": "jest --watchAll",
-    "start": "node index",
-    "dev": "nodemon index"
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
