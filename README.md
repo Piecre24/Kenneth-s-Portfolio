@@ -35,3 +35,6 @@ As myself, I want to be able to link my linked profile.
 As myself, I want to see im able to open my CV.
 
 As myself, I want my skillset to displayed from a database.
+
+As myself, I want my website to be responsive. 
+
