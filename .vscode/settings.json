@@ -1,0 +1,14 @@
+{
+    "jscs.configuration": {
+        
+        "files.autoSave": "afterDelay",
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        },
+        "eslint.codeAction.showDocumentation":{
+
+            "enable": true
+        }
+    
+    }
+}
