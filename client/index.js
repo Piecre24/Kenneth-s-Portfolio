@@ -1,7 +1,7 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
-import { render } from 'react-dom'
-//Libaries that will be use
+import ReactDOM, { render } from 'react-dom'
+
+// Libaries that will be use
 import { Provider } from 'react-redux'
 import thunk from 'redux-thunk'
 import { HashRouter as Router, Route } from 'react-router-dom'
@@ -19,10 +19,10 @@ document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
     <Router>
       <Provider store = {store}>
-      <App />
+        <App />
       </Provider>
     </Router>,
-     document.getElementById('app')
+    document.getElementById('app')
 
   )
 })

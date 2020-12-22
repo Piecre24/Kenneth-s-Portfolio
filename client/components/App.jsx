@@ -4,7 +4,7 @@ import { Route } from 'react-router-dom'
 import home from './home'
 
 export class App extends React.Component {
-  render() {
+  render () {
     return (
       <>
         <Route exact path ='/' component = {home} />

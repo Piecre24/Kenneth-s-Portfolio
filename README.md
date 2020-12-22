@@ -17,7 +17,7 @@ Besides deploying a CV website, I will sharpen my skills from what I've learned.
  - Postman and Sqlite []
  - Heroku Server []
  - Authentication functionality [] 
- - Lintin []
+ - EsLint (for better coding format) [x]
  - Client API [] 
  - Server-Side routes []
  
