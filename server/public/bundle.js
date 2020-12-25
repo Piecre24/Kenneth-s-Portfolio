@@ -234,8 +234,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_App__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/App */ "./client/components/App.jsx");
 /* harmony import */ var _reducers_index__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./reducers/index */ "./client/reducers/index.js");
 
-
- //Libaries that will be use
+ // Libaries that will be use
 
 
 
