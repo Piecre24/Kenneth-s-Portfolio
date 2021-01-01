@@ -1,10 +1,10 @@
 import React from 'react'
-import ReactDOM, { render } from 'react-dom'
+import ReactDOM from 'react-dom'
 
 // Libaries that will be use
 import { Provider } from 'react-redux'
 import thunk from 'redux-thunk'
-import { HashRouter as Router, Route } from 'react-router-dom'
+import { HashRouter as Router } from 'react-router-dom'
 import { createStore, applyMiddleware, compose } from 'redux'
 
 import App from './components/App'
