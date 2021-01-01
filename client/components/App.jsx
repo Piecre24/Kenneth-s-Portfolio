@@ -8,8 +8,9 @@ export class App extends React.Component {
   render () {
     return (
       <>
-        <Route exact path ='/' component = {home} />
         <Route exact path ='/' component = {header}/>
+        <Route exact path ='/' component = {home} />
+
       </>
     )
   }
