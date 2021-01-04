@@ -3,6 +3,7 @@ import { Route } from 'react-router-dom'
 
 import home from './home'
 import header from './Header'
+import project from './project'
 
 export class App extends React.Component {
   render () {
@@ -10,6 +11,7 @@ export class App extends React.Component {
       <>
         <Route exact path ='/' component = {header}/>
         <Route exact path ='/' component = {home} />
+        <Route excat path = '/' component = {project}/>
 
       </>
     )
