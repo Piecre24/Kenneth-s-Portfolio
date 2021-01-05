@@ -5,7 +5,7 @@ export class project extends React.Component {
   render () {
     return (
       <>
-          this where my projects would be.
+          This where my projects would be.
       </>
     )
   }
