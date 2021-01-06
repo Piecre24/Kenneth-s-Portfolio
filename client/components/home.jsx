@@ -4,7 +4,7 @@ export class home extends React.Component {
   render () {
     return (
       <>
-          this is the homepage
+          this is the homepage!
       </>
     )
   }
