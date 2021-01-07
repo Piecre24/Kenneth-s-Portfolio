@@ -4,7 +4,9 @@ export class header extends React.Component {
   render () {
     return (
       <>
-        <h1> this is the header</h1>
+        <nav className="navbar" role="navigation">
+          <h1> this is the header</h1>
+        </nav>
 
       </>
     )
