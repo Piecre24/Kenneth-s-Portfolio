@@ -5,7 +5,7 @@ export class header extends React.Component {
     return (
       <>
         <nav className="navbar" role="navigation">
-          <h1> this is the header</h1>
+          <h1> Kenneth Capistrano Cruz</h1>
         </nav>
 
       </>
