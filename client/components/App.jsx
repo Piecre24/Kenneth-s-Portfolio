@@ -14,7 +14,7 @@ export class App extends React.Component {
         <Route exact path ='/' component = {header}/>
         {/* <Route exact path ='/' component = {home} />
         <Route excat path = '/' component = {project}/> */}
-        {this.props.currentPage === 'Home' ? < home /> : <project />}
+        {this.props.currentPage === '/Home' ? < home /> : <project />}
 
       </>
     )
