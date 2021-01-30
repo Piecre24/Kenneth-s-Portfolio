@@ -6,8 +6,8 @@ export class header extends React.Component {
       <>
         <nav className="navbar" role="navigation">
           <h1> Kenneth Capistrano Cruz</h1>
-        </nav>
 
+        </nav>
       </>
     )
   }

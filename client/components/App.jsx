@@ -2,29 +2,26 @@ import React from 'react'
 import { Route } from 'react-router-dom'
 import { connect } from 'react-redux'
 
-import home from './home'
-import header from './Header'
-import project from './project'
+import Home from './home'
+import Header from './Header'
+import Project from './project'
 
-export class App extends React.Component {
-  render () {
-    return (
-      <>
+const App = (props) => {
+  return (
+    <>
 
-        <Route exact path ='/' component = {header}/>
-        {/* <Route exact path ='/' component = {home} />
-        <Route excat path = '/' component = {project}/> */}
-        {this.props.currentPage === 'Home' ? < home /> : <project />}
+      <Header />
+      {props.currentPage === 'home' ? <Home /> : props.currentPage === 'project' ? <Project /> : <Home /> }
 
-      </>
-    )
-  }
+    </>
+  )
 }
 
-const mapStateToProps = (state) => {
+const mapStateToProps = (store) => {
   return {
-    currentPage: state.currentPage
+    currentPage: store.currentPage
   }
 }
 
+// connects to all
 export default connect(mapStateToProps)(App)

@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux'
 
-import navigation from './navigation'
+import activePage from './activePage'
 
 export default combineReducers({
-  navigation
+  activePage
 })
