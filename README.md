@@ -38,5 +38,5 @@ As myself, I want my skillset to displayed from a database.
 
 As myself, I want my website to be responsive. 
 
-Due date 1/15/21
+Due date 11/4/21 5:00pm
 
