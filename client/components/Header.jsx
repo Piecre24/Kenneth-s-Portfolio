@@ -4,10 +4,15 @@ export class header extends React.Component {
   render () {
     return (
       <>
-        <nav className="navbar" role="navigation">
+        <header>
           <h1> Kenneth Capistrano Cruz</h1>
-
-        </nav>
+          <nav className="navbar">
+            <ul>
+              <li>about me</li>
+              <li>projects</li>
+            </ul>
+          </nav>
+        </header>
       </>
     )
   }
