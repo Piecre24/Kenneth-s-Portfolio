@@ -11,7 +11,6 @@ const App = (props) => {
     <>
 
       <Header />
-      {props.currentPage === 'home' ? <Home /> : props.currentPage === 'project' ? <Project /> : <Home /> }
 
     </>
   )
