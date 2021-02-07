@@ -15,8 +15,8 @@ export class header extends React.Component {
           <Router>
             <nav className="navbar">
               <ul>
-                <li><Link to="/home">Profile</Link></li>
-                <li><Link to="/projects">Profile</Link></li>
+                <li><Link to="/#/welcome">Profile</Link></li>
+                <li><Link to="/#/projects">Project</Link></li>
               </ul>
             </nav>
           </Router>
