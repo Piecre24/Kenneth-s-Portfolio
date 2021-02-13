@@ -5,22 +5,36 @@ import {
   BrowserRouter as Router,
   Redirect,
   Route
+
 } from 'react-router-dom'
+
+import { browserHistory } from 'react-router'
 
 import Home from './home'
 import Header from './Header'
 import Project from './project'
 
 export class App extends React.Component {
+  componentDidMount () {
+
+  }
+
   render () {
     return (
       <>
-        <Header />
-        <Route exact path="/">
-          <Redirect to="/welcome"/>
-        </Route>
-        <Route exact path='/welcome' component={Home} />
-        <Route exact path='/projects' component={Project} />
+        <Router history={browserHistory}>
+
+          <div className='app'>
+            <Header />
+            <main>
+              <Route exact path="/" component={Home}>
+                <Redirect to="/home"/>
+              </Route>
+              <Route exact path='/projects' component={Project} />
+            </main>
+          </div>
+
+        </Router>
       </>
     )
   }

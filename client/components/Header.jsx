@@ -5,8 +5,13 @@ import {
   Route,
   Link
 } from 'react-router-dom'
+import { connect } from 'react-redux'
 
 export class header extends React.Component {
+  componentDidMount () {
+
+  }
+
   render () {
     return (
       <>
@@ -15,8 +20,8 @@ export class header extends React.Component {
           <Router>
             <nav className="navbar">
               <ul>
-                <li><Link to="/#/welcome">Profile</Link></li>
-                <li><Link to="/#/projects">Project</Link></li>
+                <li><Link to="/welcome">Profile</Link></li>
+                <li><Link to="/projects">Project</Link></li>
               </ul>
             </nav>
           </Router>
@@ -26,4 +31,9 @@ export class header extends React.Component {
   }
 }
 
-export default header
+const mapStateToProps = (state) => {
+  return {
+    user: state.user
+  }
+}
+export default connect(mapStateToProps)(header)
