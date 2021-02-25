@@ -140,7 +140,7 @@ __webpack_require__.r(__webpack_exports__);
 var App = function App(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "app"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_5__["default"], null), props.currentPage === 'listing' ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_home__WEBPACK_IMPORTED_MODULE_4__["default"], null) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_project__WEBPACK_IMPORTED_MODULE_6__["default"], null));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_5__["default"], null), props.currentPage === 'home' ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_home__WEBPACK_IMPORTED_MODULE_4__["default"], null) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_project__WEBPACK_IMPORTED_MODULE_6__["default"], null));
 };
 /* Using class is a hassle and I require help for this */
 // export class App extends React.Component {
@@ -232,7 +232,11 @@ var header = /*#__PURE__*/function (_React$Component) {
 
     _this = _super.call.apply(_super, [this].concat(args));
 
-    _defineProperty(_assertThisInitialized(_this), "submit", function () {
+    _defineProperty(_assertThisInitialized(_this), "home", function () {
+      _this.props.dispatch(Object(_action_index__WEBPACK_IMPORTED_MODULE_3__["navigate"])('home'));
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "project", function () {
       _this.props.dispatch(Object(_action_index__WEBPACK_IMPORTED_MODULE_3__["navigate"])('project'));
     });
 
@@ -246,15 +250,13 @@ var header = /*#__PURE__*/function (_React$Component) {
         className: "navbar"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         herf: "#",
-        onClick: this.submit,
+        onClick: this.home,
         className: "link"
       }, "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         herf: "#",
-        onClick: this.submit,
+        onClick: this.project,
         className: "link"
-      }, "Project"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("td", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: "fa fa-trash fa-2x"
-      }))))));
+      }, "Project"))));
     }
   }]);
 
@@ -463,7 +465,7 @@ document.addEventListener('DOMContentLoaded', function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NAVIGATE", function() { return NAVIGATE; });
 var NAVIGATE = 'NAVIGATE';
-var initialPage = 'listing';
+var initialPage = 'home';
 
 var activePage = function activePage() {
   var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initialPage;

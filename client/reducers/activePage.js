@@ -1,6 +1,6 @@
 export const NAVIGATE = 'NAVIGATE'
 
-const initialPage = 'listing'
+const initialPage = 'home'
 
 const activePage = (state = initialPage, action) => {
   switch (action.type) {

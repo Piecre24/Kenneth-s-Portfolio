@@ -10,7 +10,11 @@ import { connect } from 'react-redux'
 import { navigate } from '../action/index'
 
 class header extends React.Component {
-  submit = () => {
+  home = () => {
+    this.props.dispatch(navigate('home'))
+  }
+
+  project = () => {
     this.props.dispatch(navigate('project'))
   }
 
@@ -21,9 +25,8 @@ class header extends React.Component {
           <h1> Kenneth Capistrano Cruz</h1>
 
           <nav className="navbar">
-            <a herf="#" onClick={this.submit} className='link'>Home</a>
-            <a herf="#" onClick={this.submit} className='link'>Project</a>
-            <td><button><span className="fa fa-trash fa-2x"></span></button></td>
+            <a herf="#" onClick={this.home} className='link'>Home</a>
+            <a herf="#" onClick={this.project} className='link'>Project</a>
 
           </nav>
 
