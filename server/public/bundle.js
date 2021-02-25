@@ -269,27 +269,7 @@ var mapStateToProps = function mapStateToProps(state) {
   };
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_2__["connect"])(mapStateToProps)(header)); // export class header extends React.Component {
-//   componentDidMount () {
-//   }
-//   render () {
-//     return (
-//       <>
-//         <header>
-//           <h1> Kenneth Capistrano Cruz</h1>
-//           <Router>
-//             <nav className="navbar">
-//               <ul>
-//                 <li><Link to="/welcome">Profile</Link></li>
-//                 <li><Link to="/projects">Project</Link></li>
-//               </ul>
-//             </nav>
-//           </Router>
-//         </header>
-//       </>
-//     )
-//   }
-// }
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_2__["connect"])(mapStateToProps)(header));
 
 /***/ }),
 
