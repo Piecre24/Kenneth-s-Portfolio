@@ -23,6 +23,8 @@ const App = (props) => {
   )
 }
 
+/* Using class is a hassle and I require help for this */
+
 // export class App extends React.Component {
 //   componentDidMount () {
 
