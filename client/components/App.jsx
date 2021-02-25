@@ -14,35 +14,40 @@ import Home from './home'
 import Header from './Header'
 import Project from './project'
 
-export class App extends React.Component {
-  componentDidMount () {
-
-  }
-
-  render () {
-    return (
-      <>
-        <Router history={browserHistory}>
-
-          <div className='app'>
-            <Header />
-            <main>
-              <Route exact path="/" component={Home}>
-                <Redirect to="/home"/>
-              </Route>
-              <Route exact path='/projects' component={Project} />
-            </main>
-          </div>
-
-        </Router>
-      </>
-    )
-  }
+const App = (props) => {
+  return (
+    <div className='app'>
+      <Header />
+      {props.currentPage === 'listing' ? <Home /> : <Project />}
+    </div>
+  )
 }
+
+// export class App extends React.Component {
+//   componentDidMount () {
+
+//   }
+
+//   render () {
+//     const { page } = this.props
+//     return (
+//       <>
+
+//         <div className='app'>
+//           <Header />
+//           <main>
+//             {page.currentPage === 'listing' ? <Home /> : <Project />}
+//           </main>
+//         </div>
+
+//       </>
+//     )
+//   }
+// }
 
 const mapStateToProps = (store) => {
   return {
-    currentPage: store.currentPage
+    currentPage: store.activePage
   }
 }
 
