@@ -4,7 +4,8 @@ export class home extends React.Component {
   render () {
     return (
       <>
-          This is the homepage!
+          Hi I’m Kenneth Cruz
+          Developer
       </>
     )
   }

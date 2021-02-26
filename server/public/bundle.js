@@ -322,7 +322,7 @@ var home = /*#__PURE__*/function (_React$Component) {
   _createClass(home, [{
     key: "render",
     value: function render() {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "This is the homepage!");
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, "Hi I\u2019m Kenneth Cruz Developer");
     }
   }]);
 

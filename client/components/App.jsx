@@ -18,7 +18,9 @@ const App = (props) => {
   return (
     <div className='app'>
       <Header />
-      {props.currentPage === 'home' ? <Home /> : <Project />}
+      {props.currentPage ===
+      'home' ? <Home />
+        : <Project />}
     </div>
   )
 }
