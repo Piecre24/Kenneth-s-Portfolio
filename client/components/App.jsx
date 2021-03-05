@@ -13,6 +13,7 @@ import { browserHistory } from 'react-router'
 import Home from './home'
 import Header from './Header'
 import Project from './project'
+import Footer from './Footer'
 
 const App = (props) => {
   return (
@@ -21,6 +22,7 @@ const App = (props) => {
       {props.currentPage ===
       'home' ? <Home />
         : <Project />}
+      <Footer />
     </div>
   )
 }
