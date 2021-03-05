@@ -4,8 +4,11 @@ export class home extends React.Component {
   render () {
     return (
       <>
-          Hi I’m Kenneth Cruz
+        <div className = "content">
+        Hi I’m Kenneth Cruz
           Developer
+        </div>
+
       </>
     )
   }

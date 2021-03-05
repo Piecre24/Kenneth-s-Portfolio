@@ -5,7 +5,9 @@ export class project extends React.Component {
   render () {
     return (
       <>
-          This where my projects would be.
+        <div className = "content">
+        This where my projects would be.
+        </div>
       </>
     )
   }
