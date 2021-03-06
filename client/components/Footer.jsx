@@ -14,7 +14,8 @@ class footer extends React.Component {
     return (
       <>
         <div id="footer" className="page_footer">
-        This is the foot
+          <p><a href="https://www.linkedin.com/in/kenneth-cruz-a2a712194/" className='link'>Linkedin</a></p>
+          <p><a href="https://github.com/Piecre24" className='link'>Github</a></p>
         </div>
 
       </>
