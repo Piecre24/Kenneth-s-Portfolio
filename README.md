@@ -38,5 +38,12 @@ As myself, I want my skillset to displayed from a database.
 
 As myself, I want my website to be responsive. 
 
-Due date 5/3/21 5:00pm
+
+## What does this website consist of?
+-	Home page []
+-	Projects []
+-	About me []
+-	What this website consists of []
+-	My skills set []
+-	Pictures []
 
