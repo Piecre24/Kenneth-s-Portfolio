@@ -232,7 +232,7 @@ var footer = /*#__PURE__*/function (_React$Component) {
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         id: "footer",
-        className: "page_footer"
+        className: "footers"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://www.linkedin.com/in/kenneth-cruz-a2a712194/",
         className: "link"
