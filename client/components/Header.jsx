@@ -23,13 +23,10 @@ class header extends React.Component {
       <>
         <header>
           <h1> Kenneth Capistrano Cruz</h1>
-
           <nav className="navbar">
             <a herf="#" onClick={this.home} className='link'>Home</a>
             <a herf="#" onClick={this.project} className='link'>Project</a>
-
           </nav>
-
         </header>
       </>
     )
