@@ -413,11 +413,11 @@ var home = /*#__PURE__*/function (_React$Component) {
         className: "content"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Hi I\u2019m Kenneth Cruz Developer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is Website consist of ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://reactjs.org/",
-        className: "ListGo"
-      }, "Redux "), " and  ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        className: "reactLink"
+      }, "React"), " and  ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://redux.js.org/",
-        className: "ListGo"
-      }, "Redux ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "About Me"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Full name is Kenneth Capistrano Cruz, born in the Philippines but raised in New Zealand often find myself talk more English than my native language. Though I often curios about things I\u2019m no knowledge of"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "One of my main goals in life is to make earth a better place, and through the Development of technology, I thoroughly believe that it could vastly improve society.")));
+        className: "reduxLink"
+      }, "Redux ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "About Me"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Full name is Kenneth Capistrano Cruz, born in the Philippines but raised in New Zealand often find myself talk more English than my native language. Though I am often curious about things I\u2019m no knowledge of and would attempt to learn it in full details."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "One of my main goals in life is to make the earth a better place, and through the development of technology, I thoroughly believe that it could vastly improve society.")));
     }
   }]);
 
