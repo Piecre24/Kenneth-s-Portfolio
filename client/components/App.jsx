@@ -14,14 +14,16 @@ import Home from './home'
 import Header from './Header'
 import Project from './project'
 import Footer from './Footer'
+import Skills from './Skills'
 
 const App = (props) => {
   return (
     <div className='app'>
       <Header />
+
       {props.currentPage ===
-      'home' ? <Home />
-        : <Project />}
+      'home' ? <Home /> : props.currentPage === 'project' ? <Project /> : <Skills />}
+
       <Footer />
     </div>
   )
