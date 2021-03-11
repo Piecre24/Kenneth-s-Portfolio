@@ -4,7 +4,7 @@ body {
 
 header {
     padding: 10px;
-    background: #1abc9c;
+    background-color: #1abc9c;
     color: white;
     font-size: 10px;
     padding-left: 20px;
@@ -20,13 +20,18 @@ body {
   }
 
 .footers {
-    background: #1abc9c;
     clear: both;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2em;
-    max-width: 100%;
-    padding: 0 1em 2em;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    margin-top: 3em;
+    color: #eee;
+    -webkit-animation: intro 0.3s both;
+    animation: intro 0.3s both;
+    -webkit-animation-delay: 0.45s;
+    animation-delay: 0.45s;
+    background-color:  #1abc9c;
 }
 .links {
     display:flex;
@@ -57,4 +62,23 @@ body {
     align-items: center;
     min-height: 2em;
  
+}
+
+.linksIcons {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.linkIcon{
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-size: .75em;
+    text-transform: uppercase;
 }

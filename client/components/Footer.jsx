@@ -14,11 +14,12 @@ class footer extends React.Component {
     return (
       <>
         <div id="footer" className="footers">
-          <ul className= "icons">
-            <li className = "linkIcons">
+          
+          <ul className= "linkIcons">
+            <li className = "linkIcon">
               <a href="https://www.linkedin.com/in/kenneth-cruz-a2a712194/" className='link'>Linkedin</a>
             </li>
-            <li className = "linkIcons">
+            <li className = "linkIcon">
               <a href="https://github.com/Piecre24" className='link'>Github</a>
             </li>
           </ul>

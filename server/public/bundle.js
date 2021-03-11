@@ -234,14 +234,14 @@ var footer = /*#__PURE__*/function (_React$Component) {
         id: "footer",
         className: "footers"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-        className: "icons"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         className: "linkIcons"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+        className: "linkIcon"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://www.linkedin.com/in/kenneth-cruz-a2a712194/",
         className: "link"
       }, "Linkedin")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-        className: "linkIcons"
+        className: "linkIcon"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://github.com/Piecre24",
         className: "link"
