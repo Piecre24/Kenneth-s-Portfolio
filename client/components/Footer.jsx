@@ -14,8 +14,14 @@ class footer extends React.Component {
     return (
       <>
         <div id="footer" className="footers">
-          <p><a href="https://www.linkedin.com/in/kenneth-cruz-a2a712194/" className='link'>Linkedin</a></p>
-          <p><a href="https://github.com/Piecre24" className='link'>Github</a></p>
+          <ul className= "icons">
+            <li>
+              <a href="https://www.linkedin.com/in/kenneth-cruz-a2a712194/" className='link'>Linkedin</a>
+            </li>
+            <li>
+              <a href="https://github.com/Piecre24" className='link'>Github</a>
+            </li>
+          </ul>
         </div>
       </>
     )

@@ -8,7 +8,7 @@ Web design of my CV
 Besides deploying a CV website, I will sharpen my skills from what I've learned.
  - Installing packages [x]
  - Running the Server [x]
- - HTML and CSS []
+ - HTML and CSS [x]
  - Javascript [x]
  - Node.JS [x]
  - React [x]
@@ -18,7 +18,7 @@ Besides deploying a CV website, I will sharpen my skills from what I've learned.
  - Heroku Server []
  - Authentication functionality [] 
  - EsLint (for better coding format) [x]
- - Client API [] 
+ - Client API [x] 
  - Server-Side routes []
  
  Also be able to learn TypeScript in the proccess
