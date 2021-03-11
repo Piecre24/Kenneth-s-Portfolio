@@ -15,10 +15,10 @@ class footer extends React.Component {
       <>
         <div id="footer" className="footers">
           <ul className= "icons">
-            <li>
+            <li className = "linkIcons">
               <a href="https://www.linkedin.com/in/kenneth-cruz-a2a712194/" className='link'>Linkedin</a>
             </li>
-            <li>
+            <li className = "linkIcons">
               <a href="https://github.com/Piecre24" className='link'>Github</a>
             </li>
           </ul>
