@@ -27,13 +27,12 @@ class header extends React.Component {
       <>
         <header>
           <nav id="headNav" className="menuNav">
-            <h1> Portfolio</h1>
+            <a href="#default" className="logo">Portfolio</a>
             <nav className="navbar">
-              <ul className="linksHeader">
-                <li className="iconHeader"> <a herf="#" onClick={this.home} className='link'>Home</a></li>
-                <li className="iconHeader"> <a herf="#" onClick={this.project} className='link'>Project</a></li>
-                <li className="iconHeader"> <a herf="#" onClick={this.skills} className='link'>Skills</a></li>
-              </ul>
+
+              <a herf="#" onClick={this.home} className='link'>Home</a>
+              <a herf="#" onClick={this.project} className='link'>Project</a>
+              <a herf="#" onClick={this.skills} className='link'>Skills</a>
 
             </nav>
           </nav>

@@ -3,15 +3,10 @@ body {
 }
 
 header {
-    padding: 10px;
+    padding: 20px 10px;
     background-color: #1abc9c;
     color: white;
-    font-size: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    display:flex;
+    overflow: hidden;
 }
 
 body {
@@ -33,48 +28,25 @@ body {
     display:flex;
 }
 
-.linksHEader {
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px
-}
-.iconHeader {
-    display: block;
-    list-style-type: none;
-    white-space: nowrap;
-    margin-bottom: 0;
-    list-style: none;
-}
 
-.menuNav{
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    min-height: 2em;
- 
-}
+.menuNav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .menuNav a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
 
-.linksIcons {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
-
-.linkIcon{
-    display: inline-block;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-family: -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
-    font-size: .75em;
-    text-transform: uppercase;
-}
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
