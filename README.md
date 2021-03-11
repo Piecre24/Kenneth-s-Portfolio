@@ -13,6 +13,7 @@ Besides deploying a CV website, I will sharpen my skills from what I've learned.
  - Node.JS [x]
  - React [x]
  - Redux [x]
+ - Responsive []
  - Redux-Thunk []
  - Postman and Sqlite []
  - Heroku Server []

@@ -14,7 +14,7 @@ class footer extends React.Component {
     return (
       <>
         <div id="footer" className="footers">
-          
+
           <ul className= "linkIcons">
             <li className = "linkIcon">
               <a href="https://www.linkedin.com/in/kenneth-cruz-a2a712194/" className='link'>Linkedin</a>

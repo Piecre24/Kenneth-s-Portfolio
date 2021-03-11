@@ -4,7 +4,7 @@ export class skills extends React.Component {
   render () {
     return (
       <>
-      hi
+           To be coded
       </>
     )
   }
