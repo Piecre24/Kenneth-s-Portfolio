@@ -12,15 +12,6 @@ export class skills extends React.Component {
           <li>JavaScript </li>
           <li>GitHub</li>
           <li>HTML</li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
         </ul>
       </>
     )
