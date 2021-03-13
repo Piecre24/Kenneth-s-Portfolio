@@ -17,6 +17,7 @@ class footer extends React.Component {
           <div className= "linkIcons">
             <a href="https://www.linkedin.com/in/kenneth-cruz-a2a712194/" className="fa fa-linkedin"></a>
             <a href="https://github.com/Piecre24" className="fa fa-github"></a>
+            {/* <a href="https://www.hackerrank.com/ken123crz" className="fa fa-hackerrank"> Hacker Ranks</a> */}
           </div>
         </nav>
       </>
