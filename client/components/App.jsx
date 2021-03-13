@@ -15,6 +15,7 @@ import Header from './Header'
 import Project from './project'
 import Footer from './Footer'
 import Skills from './Skills'
+import AboutMe from './AboutMe'
 
 const App = (props) => {
   return (
@@ -22,7 +23,9 @@ const App = (props) => {
       <Header />
 
       {props.currentPage ===
-      'home' ? <Home /> : props.currentPage === 'project' ? <Project /> : <Skills />}
+      'home' ? <Home />
+        : props.currentPage === 'project' ? <Project />
+          : props.currentPage === 'skills' ? <Skills /> : <AboutMe />}
 
       <Footer />
     </div>

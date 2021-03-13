@@ -22,11 +22,6 @@ body {
     background-color:  #1abc9c;
 }
 
-.links {
-    display:flex;
-}
-
-
 .menuNav a {
     float: left;
     color: black;

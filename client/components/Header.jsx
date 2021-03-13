@@ -22,6 +22,10 @@ class header extends React.Component {
     this.props.dispatch(navigate('skills'))
   }
 
+  aboutme = () => {
+    this.props.dispatch(navigate('aboutme'))
+  }
+
   render () {
     return (
       <>
@@ -33,6 +37,7 @@ class header extends React.Component {
               <a herf="#" onClick={this.home} className='link'>Home</a>
               <a herf="#" onClick={this.project} className='link'>Project</a>
               <a herf="#" onClick={this.skills} className='link'>Skills</a>
+              <a herf="#" onClick={this.aboutme} className='link'>About Me</a>
 
             </nav>
           </nav>
