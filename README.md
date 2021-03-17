@@ -4,6 +4,7 @@ Web design of my CV
 
 ## This Repo is a website based upon my CV and it will be deploy in Heroku
 
+## Knexfile dont work meaning Database is not functional to deploy
 ## What do I want out of this?
 Besides deploying a CV website, I will sharpen my skills from what I've learned.
  - Installing packages [x]
