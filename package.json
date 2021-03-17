@@ -19,7 +19,7 @@
     "db:migrate": "npm run knex migrate:latest",
     "db:seed": "npm run knex seed:run",
     "db:reset": "npm run knex migrate:rollback && npm run db:migrate && npm run db:seed",
-    "build": "run-s client db:reset"
+    "build": "run-s client"
   },
   "repository": {
     "type": "git",
@@ -57,12 +57,14 @@
   "dependencies": {
     "authenticare": "^0.4.7",
     "cors": "^2.8.5",
+    "cucumber": "^7.0.0-rc.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "knex": "^0.21.12",
+    "knex": "^0.21.19",
     "pg": "^8.5.1",
     "playwright-cli": "^0.162.1",
     "react-router": "^5.2.0",
+    "react-script": "^2.0.5",
     "superagent": "^5.3.1"
   },
   "devDependencies": {
