@@ -1,7 +1,7 @@
 import React from 'react'
 
 // images
-import meprofile from './me_Kenneth.jpg'
+// import meprofile from './me_Kenneth.jpg'
 
 export class home extends React.Component {
   render () {
