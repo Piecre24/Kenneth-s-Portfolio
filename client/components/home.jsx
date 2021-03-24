@@ -1,6 +1,6 @@
 import React from 'react'
 
-// import Logo from '../../server'
+import Logo from '../../server/public/image/me_Kenneth.png'
 
 export class home extends React.Component {
   render () {
@@ -14,7 +14,7 @@ export class home extends React.Component {
               <a href="https://reactjs.org/" className='reactLink'> React</a>, Webpack and
               <a href="https://redux.js.org/" className='reduxLink'> Redux </a>.</p>
           </div>
-          {/* <img src={Logo} alt="Logo" /> */}
+          <img src={Logo} alt="Logo" />
         </div>
 
       </>

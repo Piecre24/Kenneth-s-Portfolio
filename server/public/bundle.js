@@ -514,6 +514,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "home", function() { return home; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _server_public_image_me_Kenneth_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../server/public/image/me_Kenneth.png */ "./server/public/image/me_Kenneth.png");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -536,7 +537,7 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
- // import Logo from '../../server'
+
 
 var home = /*#__PURE__*/function (_React$Component) {
   _inherits(home, _React$Component);
@@ -562,7 +563,10 @@ var home = /*#__PURE__*/function (_React$Component) {
       }, " React"), ", Webpack and", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
         href: "https://redux.js.org/",
         className: "reduxLink"
-      }, " Redux "), "."))));
+      }, " Redux "), ".")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: _server_public_image_me_Kenneth_png__WEBPACK_IMPORTED_MODULE_1__["default"],
+        alt: "Logo"
+      })));
     }
   }]);
 
@@ -50450,6 +50454,19 @@ module.exports = function(originalModule) {
 	return module;
 };
 
+
+/***/ }),
+
+/***/ "./server/public/image/me_Kenneth.png":
+/*!********************************************!*\
+  !*** ./server/public/image/me_Kenneth.png ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "170dbfc3a677033afa6bf49627594b10.png");
 
 /***/ })
 
