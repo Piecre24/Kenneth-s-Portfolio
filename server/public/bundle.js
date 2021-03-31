@@ -566,11 +566,13 @@ var home = /*#__PURE__*/function (_React$Component) {
         href: "https://redux.js.org/",
         className: "reduxLink"
       }, " Redux "), ".")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "image-placing"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "home-profileimage"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
         src: _server_public_image_me_Kenneth_png__WEBPACK_IMPORTED_MODULE_1__["default"],
         alt: "Logo"
-      })))));
+      }))))));
     }
   }]);
 
