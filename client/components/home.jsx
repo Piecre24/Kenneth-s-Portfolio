@@ -9,12 +9,16 @@ export class home extends React.Component {
         <div className = "content">
           <h2>Hi I’m Kenneth Cruz a
           Developer</h2>
-          <div className = 'content-consistOf'>
-            <p>This is Website consist of
-              <a href="https://reactjs.org/" className='reactLink'> React</a>, Webpack and
-              <a href="https://redux.js.org/" className='reduxLink'> Redux </a>.</p>
+          <div className = 'home-content'>
+            <div className = 'content-consistOf'>
+              <p>This is Website consist of
+                <a href="https://reactjs.org/" className='reactLink'> React</a>, Webpack and
+                <a href="https://redux.js.org/" className='reduxLink'> Redux </a>.</p>
+            </div>
+            <div className = 'home-profileimage'><img src={Logo} alt="Logo" /></div>
+
           </div>
-          <img src={Logo} alt="Logo" />
+
         </div>
 
       </>
