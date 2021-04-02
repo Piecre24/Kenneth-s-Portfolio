@@ -12,7 +12,7 @@ export class home extends React.Component {
 
             <div className = 'content-consistOf'>
               <h2>Hi I’m Kenneth Cruz a
-          Developer</h2>
+          Software Developer</h2>
               <p>This is Website consist of
                 <a href="https://reactjs.org/" className='reactLink'> React</a>, Webpack and
                 <a href="https://redux.js.org/" className='reduxLink'> Redux </a>.</p>

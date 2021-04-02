@@ -7,7 +7,7 @@ export class project extends React.Component {
       <>
         <div className = "content">
           <div className = "projects">
-            <div className= "project1">
+            <div className= "project">
               <h2><a href="https://lishgo.herokuapp.com/#/" className='ListGo'>ListGo</a></h2>
               <ul>
                 <li>App that list Music, Films and Books to a watch later list</li>
@@ -15,7 +15,7 @@ export class project extends React.Component {
                 <li>Constructed within a week</li>
               </ul>
             </div>
-            <div className= "project2">
+            <div className= "project">
               <h2><a href="https://github.com/Piecre24/Kenny-sBoilerPlate" className='kenBoilerPlate'>BoilerPlate</a></h2>
               <ul>
                 <li>Usable for FullStack projects</li>
@@ -24,7 +24,7 @@ export class project extends React.Component {
                 <li>Consist of scripts for CLI commands (testing functionality)</li>
               </ul>
             </div>
-            <div className= "project3">
+            <div className= "project">
               <h2><a href="https://github.com/Piecre24/Kenneth-s-Portfolio/tree/main/client" className='kenPortfolio'>Portfolio</a></h2>
               <ul>
                 <li>Its about me</li>
