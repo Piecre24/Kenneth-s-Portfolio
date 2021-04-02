@@ -646,7 +646,7 @@ var project = /*#__PURE__*/function (_React$Component) {
         href: "https://lishgo.herokuapp.com/#/",
         className: "ListGo"
       }, "Open"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-        href: "https://github.com/Piecre24/Kenny-sBoilerPlate",
+        href: "https://github.com/Piecre24/Liszt",
         className: "kenBoilerPlate"
       }, "Code")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "project"
@@ -657,7 +657,15 @@ var project = /*#__PURE__*/function (_React$Component) {
         className: "kenBoilerPlate"
       }, "Code"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
         className: "project"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", null, "Portfolio"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", null, "Its about me"))))));
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", null, "Portfolio"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", null, "Its about me"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+        className: "button-project"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+        href: "",
+        className: "ListGo"
+      }, "Open"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+        href: "",
+        className: "kenBoilerPlate"
+      }, "Code")))));
     }
   }]);
 

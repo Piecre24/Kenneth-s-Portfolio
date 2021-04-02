@@ -17,7 +17,7 @@ export class project extends React.Component {
             </div>
             <div className= "button-project">
               <a href="https://lishgo.herokuapp.com/#/" className='ListGo'>Open</a>
-              <a href="https://github.com/Piecre24/Kenny-sBoilerPlate" className='kenBoilerPlate'>Code</a>
+              <a href="https://github.com/Piecre24/Liszt" className='kenBoilerPlate'>Code</a>
             </div>
 
             <div className= "project">
@@ -39,6 +39,10 @@ export class project extends React.Component {
               <ul>
                 <li>Its about me</li>
               </ul>
+            </div>
+            <div className= "button-project">
+              <a href="" className='ListGo'>Open</a>
+              <a href="" className='kenBoilerPlate'>Code</a>
             </div>
           </div>
         </div>
