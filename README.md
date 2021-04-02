@@ -16,7 +16,7 @@ Besides deploying a CV website, I will sharpen my skills from what I've learned.
  - Responsive []
  - Redux-Thunk []
  - Postman and Sqlite []
- - Heroku Server []
+ - Heroku Server [x]
  - Authentication functionality [] 
  - EsLint (for better coding format) [x]
  - Client API [x] 
