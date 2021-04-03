@@ -75,6 +75,12 @@ body {
     font-weight: bold;
   }
 
+  .menuNav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
   /* Style all font awesome icons */
 .fa {
   padding: 20px;
