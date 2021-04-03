@@ -38,8 +38,13 @@ body {
 .content-consistOf {
   flex: 0 0 33.33333%;
   max-width: 33.33333%;
-
+ 
 } 
+
+.content-consistOf a {
+  text-decoration: none;
+
+}
 
 .image-placing {
   padding-top: 20px;
