@@ -18,7 +18,7 @@ export class home extends React.Component {
                 <a href="https://redux.js.org/" className='reduxLink'> Redux </a>.</p>
             </div>
             <div className = 'image-placing'>
-              <div className = 'home-profileimage'><img src={Kenneth} alt="Logo" /></div>
+              <div className = 'home-profileimage' ><img src={Kenneth} alt="Logo" /></div>
             </div>
 
           </div>

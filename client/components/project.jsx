@@ -19,7 +19,7 @@ export class project extends React.Component {
                 <a href="https://lishgo.herokuapp.com/#/" className='ListGo'>Open</a>
                 <a href="https://github.com/Piecre24/Liszt" className='kenBoilerPlate'>Code</a>
               </div>
-              <div className = 'project-images'><img src={ListGo} alt="Listgo-image" /></div>
+              <div className = 'project-images'><img src={ListGo} alt="Listgo-image" width="600" height="400"/></div>
             </div>
 
             <div className= "project">
@@ -34,6 +34,7 @@ export class project extends React.Component {
                 <a>Open</a>
                 <a href="https://github.com/Piecre24/Kenny-sBoilerPlate" className='kenBoilerPlate'>Code</a>
               </div>
+              <div className = 'project-images'><img src={ListGo} alt="Listgo-image" width="600" height="400"/></div>
             </div>
 
             <div className= "project">
@@ -46,6 +47,7 @@ export class project extends React.Component {
               <a href="" className='ListGo'>Open</a>
               <a href="" className='kenBoilerPlate'>Code</a>
             </div>
+            <div className = 'project-images'><img src={ListGo} alt="Listgo-image" width="600" height="400"/></div>
           </div>
 
         </div>
