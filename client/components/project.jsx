@@ -1,5 +1,6 @@
-import { Projection } from 'leaflet'
 import React from 'react'
+
+import ListGo from '../../server/public/image/list_go.png'
 
 export class project extends React.Component {
   render () {
@@ -14,10 +15,11 @@ export class project extends React.Component {
                 <li>Uses 3 External APIs in different individual server organization</li>
                 <li>Constructed within a week</li>
               </ul>
-            </div>
-            <div className= "button-project">
-              <a href="https://lishgo.herokuapp.com/#/" className='ListGo'>Open</a>
-              <a href="https://github.com/Piecre24/Liszt" className='kenBoilerPlate'>Code</a>
+              <div className= "button-project">
+                <a href="https://lishgo.herokuapp.com/#/" className='ListGo'>Open</a>
+                <a href="https://github.com/Piecre24/Liszt" className='kenBoilerPlate'>Code</a>
+              </div>
+              <div className = 'project-images'><img src={ListGo} alt="Listgo-image" /></div>
             </div>
 
             <div className= "project">
@@ -32,8 +34,8 @@ export class project extends React.Component {
                 <a>Open</a>
                 <a href="https://github.com/Piecre24/Kenny-sBoilerPlate" className='kenBoilerPlate'>Code</a>
               </div>
-
             </div>
+
             <div className= "project">
               <h2>Portfolio</h2>
               <ul>
@@ -45,6 +47,7 @@ export class project extends React.Component {
               <a href="" className='kenBoilerPlate'>Code</a>
             </div>
           </div>
+
         </div>
       </>
     )
