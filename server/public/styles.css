@@ -132,3 +132,19 @@ body {
 .project {
   margin-top:40px;
 }
+
+/*button projects */
+
+.button-project a {
+  border: 2px solid #24a38a;
+  color: #24a38a;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button-project a:hover{
+  color: white;
+  background-color: #24a38a;
+}

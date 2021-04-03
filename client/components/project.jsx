@@ -29,7 +29,7 @@ export class project extends React.Component {
                 <li>Consist of scripts for CLI commands (testing functionality)</li>
               </ul>
               <div className= "button-project">
-                <a>open</a>
+                <a>Open</a>
                 <a href="https://github.com/Piecre24/Kenny-sBoilerPlate" className='kenBoilerPlate'>Code</a>
               </div>
 
