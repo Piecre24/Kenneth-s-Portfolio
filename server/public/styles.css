@@ -56,6 +56,7 @@ body {
 }
 
 /*Link header CSS */
+
 .menuNav a {
     float: left;
     color: black;
@@ -72,11 +73,17 @@ body {
     font-weight: bold;
   }
 
-  .menuNav a:hover {
+  .navbar a:hover {
     cursor: pointer;
     background-color: #ddd;
     color: black;
   }
+
+  .navbar a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
   
 
   /* Style all font awesome icons */
