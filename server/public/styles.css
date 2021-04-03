@@ -3,6 +3,7 @@ body {
 }
 
 header {
+  
     padding: 20px 10px;
     background-color: #1abc9c;
     color: white;
@@ -54,11 +55,7 @@ body {
   box-sizing: border-box;
 }
 
-/*images */
-/* 
-.meprofile {
-  background-image: url(./image/me_Kenneth.jpg);
-} */
+/*Link header CSS */
 .menuNav a {
     float: left;
     color: black;
@@ -76,6 +73,7 @@ body {
   }
 
   .menuNav a:hover {
+    cursor: pointer;
     background-color: #ddd;
     color: black;
   }
