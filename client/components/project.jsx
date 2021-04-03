@@ -41,13 +41,18 @@ export class project extends React.Component {
               <h2>Portfolio</h2>
               <ul>
                 <li>Its about me</li>
+                <li>Presents my skillsets</li>
+                <li>Records of my projects</li>
+                <li>Consist of my currents status</li>
+                <li>Deployed and consist of Redux, React and Webpack (etc)</li>
               </ul>
+              <div className= "button-project">
+                <a href="" className='ListGo'>Open</a>
+                <a href="" className='kenBoilerPlate'>Code</a>
+              </div>
+              <div className = 'project-images'><img src={ListGo} alt="Listgo-image" width="600" height="400"/></div>
             </div>
-            <div className= "button-project">
-              <a href="" className='ListGo'>Open</a>
-              <a href="" className='kenBoilerPlate'>Code</a>
-            </div>
-            <div className = 'project-images'><img src={ListGo} alt="Listgo-image" width="600" height="400"/></div>
+
           </div>
 
         </div>

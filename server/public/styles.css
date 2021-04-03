@@ -3,7 +3,6 @@ body {
 }
 
 header {
-  
     padding: 20px 10px;
     background-color: #1abc9c;
     color: white;
@@ -38,7 +37,6 @@ body {
 .content-consistOf {
   flex: 0 0 33.33333%;
   max-width: 33.33333%;
- 
 } 
 
 .content-consistOf a {
@@ -132,9 +130,11 @@ body {
   margin-top: 30px;
   margin-left: 30px;
   margin-right: 10px;
+  
 }
 
 .project {
+  display:flex;
   margin-top:40px;
 }
 
@@ -155,5 +155,5 @@ body {
 }
 
 .project-images{
-
+  flex:content;
 }
