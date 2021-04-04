@@ -37,8 +37,12 @@ body {
 .content-consistOf {
   flex: 0 0 33.33333%;
   max-width: 33.33333%;
-
 } 
+
+.content-consistOf a {
+  text-decoration: none;
+
+}
 
 .image-placing {
   padding-top: 20px;
@@ -54,11 +58,8 @@ body {
   box-sizing: border-box;
 }
 
-/*images */
-/* 
-.meprofile {
-  background-image: url(./image/me_Kenneth.jpg);
-} */
+/*Link header CSS */
+
 .menuNav a {
     float: left;
     color: black;
@@ -74,6 +75,19 @@ body {
     font-size: 25px;
     font-weight: bold;
   }
+
+  .navbar a:hover {
+    cursor: pointer;
+    background-color: #ddd;
+    color: black;
+  }
+
+  .navbar a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  
 
   /* Style all font awesome icons */
 .fa {
@@ -119,5 +133,26 @@ body {
 }
 
 .project {
+  display:flex;
   margin-top:40px;
+}
+
+/*button projects */
+
+.button-project a {
+  border: 2px solid black;
+  color: #24a38a;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button-project a:hover{
+  color: white;
+  background-color: #24a38a;
+}
+
+.project-images{
+  flex:content;
 }
