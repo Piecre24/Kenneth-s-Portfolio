@@ -1,6 +1,7 @@
 import React from 'react'
 
 import ListGo from '../../server/public/image/list_go.png'
+import BoiPlate from '../../server/public/image/boiler_plate.png'
 
 export class project extends React.Component {
   render () {
@@ -31,10 +32,10 @@ export class project extends React.Component {
                 <li>Consist of scripts for CLI commands (testing functionality)</li>
               </ul>
               <div className= "button-project">
-                <a>Open</a>
+                <a href= "https://boilerplatekenny.herokuapp.com/#/" className='BoilerPlate'>Open</a>
                 <a href="https://github.com/Piecre24/Kenny-sBoilerPlate" className='kenBoilerPlate'>Code</a>
               </div>
-              <div className = 'project-images'><img src={ListGo} alt="Listgo-image" width="600" height="400"/></div>
+              <div className = 'project-images'><img src={BoiPlate} alt="Listgo-image" width="600" height="400"/></div>
             </div>
 
             <div className= "project">
