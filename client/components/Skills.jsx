@@ -3,7 +3,7 @@ import React from 'react'
 import progammingImg from '../../server/public/image/coding.png'
 import techsavyImg from '../../server/public/image/techsavy.png'
 import teamplayerImg from '../../server/public/image/teamplayer.png'
-import volunteerImg from '../../server/public/image/coding.png'
+import volunteerImg from '../../server/public/image/volunteer.png'
 import kindImg from '../../server/public/image/kind.png'
 import fitnessImg from '../../server/public/image/fitness.png'
 
