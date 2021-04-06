@@ -157,3 +157,16 @@ body {
 .project-images{
   flex:content;
 }
+/* skill css  */
+.skills-content{
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+}
+
+
+/*About me css*/
+
+.aboutme-content{
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+}
