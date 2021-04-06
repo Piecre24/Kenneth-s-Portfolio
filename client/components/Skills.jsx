@@ -49,6 +49,9 @@ export class skills extends React.Component {
             </ul>
           </div>
           <div className = 'extra-skills'>
+            <div className= 'title-skill'>
+              <h3>Other skills</h3>
+            </div>
             <ul>
               <li>Agile Methodology</li>
               <li>Human Skills</li>
