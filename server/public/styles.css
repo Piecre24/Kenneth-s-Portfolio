@@ -158,11 +158,31 @@ body {
   flex:content;
 }
 /* skill css  */
+.title-skill{
+  text-align: center;
+}
 .skills-content{
   margin: 10px 10px 10px 10px;
   padding: 10px 10px 10px 10px;
 }
+.main-skills{
+  display: flex;
+  text-align: center;
+}
 
+.main-skills li {
+  list-style-type: none;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+ 
+}
+
+/*size portion*/
+/* .main-skills li p {
+  padding-right: 10%;
+  padding-left: 10%;
+  font-size: 10px; 
+} */
 
 /*About me css*/
 
