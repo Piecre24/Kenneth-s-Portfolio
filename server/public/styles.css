@@ -7,6 +7,9 @@ header {
     background-color: #1abc9c;
     color: white;
     overflow: hidden;
+    padding: 0.5em;
+    text-align: center;
+    box-shadow: 0 7px 7px rgb(0 0 0 / 25%);
 }
 
 body {
@@ -18,9 +21,44 @@ body {
   padding: 20px 10px;
     width: 100%;
     margin-top: 3em;
-    color: #eee;
-    background-color:  #1abc9c;
+    background-color: #1abc9c;
+    box-shadow: 0px 0px 10px 0px
 }
+
+/* Home */
+.home-content {
+  margin-bottom: 1rem;
+  display:flex;
+  flex-wrap: wrap;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.content-consistOf {
+  flex: 0 0 33.33333%;
+  max-width: 33.33333%;
+} 
+
+.content-consistOf a {
+  text-decoration: none;
+
+}
+
+.image-placing {
+  padding-top: 20px;
+  padding-left: 100px;
+} 
+
+.home-profileimage {
+  flex: 66.66667%;
+  max-width: 66.66667%;
+}
+
+:before, :after {
+  box-sizing: border-box;
+}
+
+/*Link header CSS */
 
 .menuNav a {
     float: left;
@@ -38,6 +76,19 @@ body {
     font-weight: bold;
   }
 
+  .navbar a:hover {
+    cursor: pointer;
+    background-color: #ddd;
+    color: black;
+  }
+
+  .navbar a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  
+
   /* Style all font awesome icons */
 .fa {
   padding: 20px;
@@ -47,7 +98,6 @@ body {
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 50%;
-
 }
 
 /* Add a hover effect if you want */
@@ -70,5 +120,39 @@ body {
 }
 
 .linkIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   padding: 12px;
+}
+
+.projects {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+.project {
+  display:flex;
+  margin-top:40px;
+}
+
+/*button projects */
+
+.button-project a {
+  border: 2px solid black;
+  color: #24a38a;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button-project a:hover{
+  color: white;
+  background-color: #24a38a;
+}
+
+.project-images{
+  flex:content;
 }

@@ -1,5 +1,7 @@
-import { Projection } from 'leaflet'
 import React from 'react'
+
+import ListGo from '../../server/public/image/list_go.png'
+import BoiPlate from '../../server/public/image/boiler_plate.png'
 
 export class project extends React.Component {
   render () {
@@ -7,30 +9,53 @@ export class project extends React.Component {
       <>
         <div className = "content">
           <div className = "projects">
-            <div className= "project1">
-              <h2><a href="https://lishgo.herokuapp.com/#/" className='ListGo'>ListGo</a></h2>
+            <div className= "project">
+              <h2>ListGo</h2>
               <ul>
                 <li>App that list Music, Films and Books to a watch later list</li>
                 <li>Uses 3 External APIs in different individual server organization</li>
                 <li>Constructed within a week</li>
               </ul>
+              <div className= "button-project">
+                <a href="https://lishgo.herokuapp.com/#/" className='ListGo'>Open</a>
+                <a href="https://github.com/Piecre24/Liszt" className='kenBoilerPlate'>Code</a>
+              </div>
+              <div className = 'project-images'><img src={ListGo} alt="Listgo-image" width="600" height="400"/></div>
             </div>
-            <div className= "project2">
-              <h2><a href="https://github.com/Piecre24/Kenny-sBoilerPlate" className='kenBoilerPlate'>BoilerPlate</a></h2>
+
+            <div className= "project">
+              <h2>BoilerPlate</h2>
               <ul>
                 <li>Usable for FullStack projects</li>
                 <li>Cosntructed by scratch</li>
                 <li>Open source usable for anyone </li>
                 <li>Consist of scripts for CLI commands (testing functionality)</li>
               </ul>
+              <div className= "button-project">
+                <a href= "https://boilerplatekenny.herokuapp.com/#/" className='BoilerPlate'>Open</a>
+                <a href="https://github.com/Piecre24/Kenny-sBoilerPlate" className='kenBoilerPlate'>Code</a>
+              </div>
+              <div className = 'project-images'><img src={BoiPlate} alt="Listgo-image" width="600" height="400"/></div>
             </div>
-            <div className= "project3">
-              <h2><a href="https://github.com/Piecre24/Kenneth-s-Portfolio/tree/main/client" className='kenPortfolio'>Portfolio</a></h2>
+
+            <div className= "project">
+              <h2>Portfolio</h2>
               <ul>
                 <li>Its about me</li>
+                <li>Presents my skillsets</li>
+                <li>Records of my projects</li>
+                <li>Consist of my currents status</li>
+                <li>Deployed and consist of Redux, React and Webpack (etc)</li>
               </ul>
+              <div className= "button-project">
+                <a href="" className='ListGo'>Open</a>
+                <a href="" className='kenBoilerPlate'>Code</a>
+              </div>
+              <div className = 'project-images'><img src={ListGo} alt="Listgo-image" width="600" height="400"/></div>
             </div>
+
           </div>
+
         </div>
       </>
     )
