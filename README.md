@@ -1,7 +1,11 @@
 # Kenneth-s-Portfolio
 Web design of my CV
 
-
+## Things to do 
+ - Change links toward websites
+ - Add more projects 
+ - Analyze whats needs to be add 
+ 
 ## This Repo is a website based upon my CV and it will be deploy in Heroku
 
 ## Knexfile dont work meaning Database is not functional to deploy
