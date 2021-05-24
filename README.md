@@ -5,6 +5,7 @@ Web design of my CV
  - Change links toward websites
  - Add more projects 
  - Analyze whats needs to be add 
+ - Add new project
  
 ## This Repo is a website based upon my CV and it will be deploy in Heroku
 
