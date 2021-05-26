@@ -2,6 +2,7 @@ import React from 'react'
 
 import ListGo from '../../server/public/image/list_go.png'
 import BoiPlate from '../../server/public/image/boiler_plate.png'
+import RetailPlate from '../../server/public/image/retail_plate.png'
 
 export class project extends React.Component {
   render () {
@@ -47,10 +48,10 @@ export class project extends React.Component {
                 <li>Deployed and consist of Redux, React and Webpack (etc)</li>
               </ul>
               <div className= "button-project">
-                <a href="" className='ListGo'>Open</a>
-                <a href="" className='kenBoilerPlate'>Code</a>
+                <a href="https://mrretialstore.herokuapp.com/" className='ListGo'>Open</a>
+                <a href="https://github.com/Piecre24/MRRetialStore" className='kenBoilerPlate'>Code</a>
               </div>
-              <div className = 'project-images'><img src={ListGo} alt="Listgo-image" width="600" height="400"/></div>
+              <div className = 'project-images'><img src={RetailPlate} alt="retailplate-image" width="600" height="400"/></div>
             </div>
 
           </div>

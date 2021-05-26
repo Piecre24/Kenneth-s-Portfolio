@@ -657,6 +657,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _server_public_image_list_go_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../server/public/image/list_go.png */ "./server/public/image/list_go.png");
 /* harmony import */ var _server_public_image_boiler_plate_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../server/public/image/boiler_plate.png */ "./server/public/image/boiler_plate.png");
+/* harmony import */ var _server_public_image_retail_plate_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../server/public/image/retail_plate.png */ "./server/public/image/retail_plate.png");
 function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -678,6 +679,7 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
 
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
 
 
 
@@ -739,16 +741,16 @@ var project = /*#__PURE__*/function (_React$Component) {
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Retail Web Prototype"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Add Cart functionality"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Can use for Mobile and Desktop"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Can be use as the Template"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, "Deployed and consist of Redux, React and Webpack (etc)")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "button-project"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "",
+        href: "https://mrretialstore.herokuapp.com/",
         className: "ListGo"
       }, "Open"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: "",
+        href: "https://github.com/Piecre24/MRRetialStore",
         className: "kenBoilerPlate"
       }, "Code")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "project-images"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: _server_public_image_list_go_png__WEBPACK_IMPORTED_MODULE_1__["default"],
-        alt: "Listgo-image",
+        src: _server_public_image_retail_plate_png__WEBPACK_IMPORTED_MODULE_3__["default"],
+        alt: "retailplate-image",
         width: "600",
         height: "400"
       }))))));
@@ -36564,6 +36566,19 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "170dbfc3a677033afa6bf49627594b10.png");
+
+/***/ }),
+
+/***/ "./server/public/image/retail_plate.png":
+/*!**********************************************!*\
+  !*** ./server/public/image/retail_plate.png ***!
+  \**********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "8e7e34ed37e4bb5005704e264b7717c9.png");
 
 /***/ }),
 
