@@ -39,12 +39,11 @@ export class project extends React.Component {
             </div>
 
             <div className= "project">
-              <h2>Portfolio</h2>
+              <h2>Retail Web Prototype</h2>
               <ul>
-                <li>Its about me</li>
-                <li>Presents my skillsets</li>
-                <li>Records of my projects</li>
-                <li>Consist of my currents status</li>
+                <li>Add Cart functionality</li>
+                <li>Can use for Mobile and Desktop</li>
+                <li>Can be use as the Template</li>
                 <li>Deployed and consist of Redux, React and Webpack (etc)</li>
               </ul>
               <div className= "button-project">
