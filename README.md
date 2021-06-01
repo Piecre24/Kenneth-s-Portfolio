@@ -2,6 +2,7 @@
 Web design of my CV
 
 ## Things to do 
+ - Make it responsive
  - Change links toward websites
  - Add more projects 
  - Analyze whats needs to be add 
