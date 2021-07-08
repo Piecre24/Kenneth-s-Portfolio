@@ -8,6 +8,7 @@ Web design of my CV
  - Analyze whats needs to be add 
  - Add new project
  - New Image
+ - Update content
  - Update skillset
  
 ## This Repo is a website based upon my CV and it will be deploy in Heroku
