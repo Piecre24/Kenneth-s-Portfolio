@@ -1,5 +1,5 @@
 # Kenneth-s-Portfolio
-Web design of my CV
+Web design For my portfolio
 
 ## Things to do 
  - Make it responsive
