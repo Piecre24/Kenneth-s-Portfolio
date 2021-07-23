@@ -51,10 +51,9 @@ As myself, I want my website to be responsive.
 
 
 ## What does this website consist of?
--	Home page []
--	Projects []
--	About me []
--	What this website consists of []
--	My skills set []
--	Pictures []
+-	Home page [x]
+-	Projects [x]
+-	About me [x]
+-	My skills set [x]
+-	Pictures [x]
 
