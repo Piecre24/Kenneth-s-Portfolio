@@ -7,7 +7,7 @@ Web design For my portfolio
  - Add more projects 
  - Analyze whats needs to be add 
  - Add new project
- - New Image
+ - New Images
  - Update content
  - Update skillset
  
